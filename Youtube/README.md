@@ -81,7 +81,7 @@ graph TD
     
     WorkerQueue --> Encoder
     Encoder -->|Fetch Raw| BlobStorage
-    Encoder -->|Save Encoded (720p, 1080p)| BlobStorage
+    Encoder -->|Save Encoded 720p, 1080p| BlobStorage
     Encoder -->|Update Status| DB
     
     MetaSvc --> DB
