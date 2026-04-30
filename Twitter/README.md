@@ -46,7 +46,7 @@ graph TD
         UserSvc[User / Social Graph Service]
     end
 
-    subgraph Processing Layer (Fanout)
+    subgraph Processing Layer
         MessageQueue[Message Queue / Redis Streams]
         FanoutWorkers[Fanout Workers]
     end
