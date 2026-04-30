@@ -6,3 +6,4 @@ This repository contains basic to advanced system design documentations and diag
 
 - [YouTube System Design (SDE 1 Level)](./Youtube/README.md)
 - [Twitter System Design (SDE 1 Level)](./Twitter/README.md)
+- [WhatsApp System Design (SDE 1/2 Level)](./Whatsapp/README.md)
